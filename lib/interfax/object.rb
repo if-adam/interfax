@@ -1,3 +1,5 @@
+require "ostruct"
+
 class InterFAX::Object < OpenStruct
   def attributes
     hash = to_h
